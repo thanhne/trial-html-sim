@@ -13,24 +13,30 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- CSS -->
     <style>
-        * {
-            margin: 0 !important;
-            padding: 0 !important;
+        /* * {
+            margin: 0;
+            padding: 0;
             box-sizing: border-box !important;
             text-decoration: none !important;
             list-style-type: none !important;
+            outline: none !important;
+        } */
+
+        .active {
+            color: #495057;
+            background-color: #f8f9fa !important;
+            border-color: #dee2e6 #dee2e6 #f8f9fa !important;
         }
     </style>
 </head>
 
 <body>
 
-    <header class="header py-5">
+    <header class="header my-5">
         <div class="container mx-auto">
             <div class="row">
-                <div class="col-2 d-flex justify-content-center align-item-center">
+                <div class="col-2">
                     <a href="#" class="d-flex align-item-center w-100 h-100"><img src="" alt=""
                             class="bg-secondary w-100 h-100 object-fit-cover"></a>
                 </div>
@@ -39,39 +45,39 @@
                         <a href="" class="p-3 d-flex">
                             <div class="mx-1"><i class="fa-solid fa-store"></i></div>
                             <div>
-                                <p>Store</p>
+                                <p class="mb-0">Store</p>
                             </div>
                         </a>
                     </div>
                     <div class="d-flex align-item-center">
                         <a href="#" class="p-3 d-flex">
                             <div>
-                                <p>Partner with Us</p>
+                                <p class="mb-0">Partner with Us</p>
                             </div>
                             <div class="mx-1"><i class="fa-solid fa-chevron-down"></i></div>
                         </a>
                         <a href="#" class="p-3 d-flex border-start">
                             <div>
-                                <p>About Us</p>
+                                <p class="mb-0">About Us</p>
                             </div>
                             <div class="mx-1"><i class="fa-solid fa-chevron-down"></i></div>
                         </a>
                         <a href="#" class="p-3 d-flex border-start">
                             <div class="mx-1"><i class="fa-solid fa-user"></i></div>
                             <div>
-                                <p>Log in / Sign up</p>
+                                <p class="mb-0">Log in / Sign up</p>
                             </div>
                         </a>
                         <a href="#" class="p-3 d-flex border-start">
                             <div class="mx-1"><i class="fa-solid fa-dollar-sign"></i></div>
                             <div>
-                                <p>USD</p>
+                                <p class="mb-0">USD</p>
                             </div>
                         </a>
-                        <a href="#" class="p-3 pe-0 d-flex border-start">
+                        <a href="#" class="p-3 d-flex border-start">
                             <div class="mx-1"><i class="fa-solid fa-earth-americas"></i></div>
                             <div>
-                                <p>English</p>
+                                <p class="mb-0">English</p>
                             </div>
                         </a>
                     </div>
@@ -111,343 +117,365 @@
         </div>
     </section>
     <section class="section2 my-5">
-        <div class="container mx-auto">
-            <ul class="nav nav-tabs d-flex justify-content-center bo" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link p-3 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                        type="button" role="tab" aria-controls="home" aria-selected="true">Local eSIMs</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link p-3" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                        type="button" role="tab" aria-controls="profile" aria-selected="false">Regional eSIMs</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link p-3" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                        type="button" role="tab" aria-controls="contact" aria-selected="false">Global eSIMs</button>
-                </li>
-            </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <div class="d-flex justify-content-center my-5 w-25 mx-auto">
-                        <div class="w-100"><img src="" alt="" class="w-100 h-100 object-fit-cover bg-secondary"></div>
-                        <div class="p-3">
-                            <h3>Japan</h3>
-                        </div>
-                    </div>
-                    <div class="">
-                        <div class="row justify-content-center">
-                            <div class="col-3 p-3 rounded bg-light position-relative m-4">
-                                <div class="d-flex justify-content-between py-3 pb-5">
-                                    <div>
-                                        <p>Moshi Moshi</p>
-                                    </div>
-                                    <div
-                                        class="w-50 h-25 bg-secondary position-absolute mx-3 end-0 translate-middle-y rounded">
-                                        <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>COVERAGE</p>
-                                    </div>
-                                    <div>
-                                        <p>Japan</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>DATA</p>
-                                    </div>
-                                    <div>
-                                        <p>1 GB</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>VALIDITY</p>
-                                    </div>
-                                    <div>
-                                        <p>7 Days</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>PRICE</p>
-                                    </div>
-                                    <div>
-                                        <p>$4.50 USD</p>
-                                    </div>
-                                </div>
-                                <div class="pt-3 border-top">
-                                    <button class="border-0 w-100 p-2 rounded">BUY NOW</button>
-                                </div>
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+                    role="tab" aria-controls="home" aria-selected="true">Home</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+                    role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
+                    role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+            </li>
+        </ul>
+        <div class="tab-content bg-light" id="nav-tabContent">
+            <div class="container">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="d-flex justify-content-center py-5">
+                            <div class="">
+                                <img src="" alt="" class="w-100 h-100 object-fit-cover bg-secondary">
                             </div>
-                            <div class="col-3 p-3 rounded bg-light position-relative m-4">
-                                <div class="d-flex justify-content-between py-3 pb-5">
-                                    <div>
-                                        <p>Moshi Moshi</p>
-                                    </div>
-                                    <div
-                                        class="w-50 h-25 bg-secondary position-absolute mx-3 end-0 translate-middle-y rounded">
-                                        <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>COVERAGE</p>
-                                    </div>
-                                    <div>
-                                        <p>Japan</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>DATA</p>
-                                    </div>
-                                    <div>
-                                        <p>1 GB</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>VALIDITY</p>
-                                    </div>
-                                    <div>
-                                        <p>7 Days</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>PRICE</p>
-                                    </div>
-                                    <div>
-                                        <p>$4.50 USD</p>
-                                    </div>
-                                </div>
-                                <div class="pt-3 border-top">
-                                    <button class="border-0 w-100 p-2 rounded">BUY NOW</button>
-                                </div>
-                            </div>
-                            <div class="col-3 p-3 rounded bg-light position-relative m-4">
-                                <div class="d-flex justify-content-between py-3 pb-5">
-                                    <div>
-                                        <p>Moshi Moshi</p>
-                                    </div>
-                                    <div
-                                        class="w-50 h-25 bg-secondary position-absolute mx-3 end-0 translate-middle-y rounded">
-                                        <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>COVERAGE</p>
-                                    </div>
-                                    <div>
-                                        <p>Japan</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>DATA</p>
-                                    </div>
-                                    <div>
-                                        <p>1 GB</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>VALIDITY</p>
-                                    </div>
-                                    <div>
-                                        <p>7 Days</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>PRICE</p>
-                                    </div>
-                                    <div>
-                                        <p>$4.50 USD</p>
-                                    </div>
-                                </div>
-                                <div class="pt-3 border-top">
-                                    <button class="border-0 w-100 p-2 rounded">BUY NOW</button>
-                                </div>
-                            </div>
-                            <div class="col-3 p-3 rounded bg-light position-relative m-4">
-                                <div class="d-flex justify-content-between py-3 pb-5">
-                                    <div>
-                                        <p>Moshi Moshi</p>
-                                    </div>
-                                    <div
-                                        class="w-50 h-25 bg-secondary position-absolute mx-3 end-0 translate-middle-y rounded">
-                                        <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>COVERAGE</p>
-                                    </div>
-                                    <div>
-                                        <p>Japan</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>DATA</p>
-                                    </div>
-                                    <div>
-                                        <p>1 GB</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>VALIDITY</p>
-                                    </div>
-                                    <div>
-                                        <p>7 Days</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>PRICE</p>
-                                    </div>
-                                    <div>
-                                        <p>$4.50 USD</p>
-                                    </div>
-                                </div>
-                                <div class="pt-3 border-top">
-                                    <button class="border-0 w-100 p-2 rounded">BUY NOW</button>
-                                </div>
-                            </div>
-                            <div class="col-3 p-3 rounded bg-light position-relative m-4">
-                                <div class="d-flex justify-content-between py-3 pb-5">
-                                    <div>
-                                        <p>Moshi Moshi</p>
-                                    </div>
-                                    <div
-                                        class="w-50 h-25 bg-secondary position-absolute mx-3 end-0 translate-middle-y rounded">
-                                        <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>COVERAGE</p>
-                                    </div>
-                                    <div>
-                                        <p>Japan</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>DATA</p>
-                                    </div>
-                                    <div>
-                                        <p>1 GB</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>VALIDITY</p>
-                                    </div>
-                                    <div>
-                                        <p>7 Days</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>PRICE</p>
-                                    </div>
-                                    <div>
-                                        <p>$4.50 USD</p>
-                                    </div>
-                                </div>
-                                <div class="pt-3 border-top">
-                                    <button class="border-0 w-100 p-2 rounded">BUY NOW</button>
-                                </div>
-                            </div>
-                            <div class="col-3 p-3 rounded bg-light position-relative m-4">
-                                <div class="d-flex justify-content-between py-3 pb-5">
-                                    <div>
-                                        <p>Moshi Moshi</p>
-                                    </div>
-                                    <div
-                                        class="w-50 h-25 bg-secondary position-absolute mx-3 end-0 translate-middle-y rounded">
-                                        <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>COVERAGE</p>
-                                    </div>
-                                    <div>
-                                        <p>Japan</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>DATA</p>
-                                    </div>
-                                    <div>
-                                        <p>1 GB</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>VALIDITY</p>
-                                    </div>
-                                    <div>
-                                        <p>7 Days</p>
-                                    </div>
-                                </div>
-                                <div class="d-flex justify-content-between py-3 border-top">
-                                    <div class="d-flex">
-                                        <div><img src="" alt="">icon</div>
-                                        <p>PRICE</p>
-                                    </div>
-                                    <div>
-                                        <p>$4.50 USD</p>
-                                    </div>
-                                </div>
-                                <div class="pt-3 border-top">
-                                    <button class="border-0 w-100 p-2 rounded">BUY NOW</button>
-                                </div>
+                            <div class="mx-3">
+                                <h3>Japan</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="my-5">
-                        <div class="row justify-content-center">
-                            <div class="col-4">
-                                <button class="w-100 border-0 rounded p-2">SHOW 200+ COUNTRIES</button>
+                        <div class="container">
+                            <div class="row g-5"> <!-- Sử dụng lớp gap g-3 để thiết lập khoảng cách -->
+                                <div class="col-md-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <p class="my-0">Moshi Moshi</p>
+                                            </div>
+                                            <div
+                                                class="bg-secondary position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">COVERAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Japan</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">1 GB</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">VALIDITY</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">7 Days</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">PRICE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">$4.50 USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-top">
+                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <p class="my-0">Moshi Moshi</p>
+                                            </div>
+                                            <div
+                                                class="bg-secondary position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">COVERAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Japan</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">1 GB</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">VALIDITY</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">7 Days</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">PRICE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">$4.50 USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-top">
+                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <p class="my-0">Moshi Moshi</p>
+                                            </div>
+                                            <div
+                                                class="bg-secondary position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">COVERAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Japan</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">1 GB</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">VALIDITY</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">7 Days</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">PRICE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">$4.50 USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-top">
+                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <p class="my-0">Moshi Moshi</p>
+                                            </div>
+                                            <div
+                                                class="bg-secondary position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">COVERAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Japan</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">1 GB</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">VALIDITY</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">7 Days</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">PRICE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">$4.50 USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-top">
+                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <p class="my-0">Moshi Moshi</p>
+                                            </div>
+                                            <div
+                                                class="bg-secondary position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">COVERAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Japan</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">1 GB</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">VALIDITY</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">7 Days</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">PRICE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">$4.50 USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-top">
+                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <p class="my-0">Moshi Moshi</p>
+                                            </div>
+                                            <div
+                                                class="bg-secondary position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="" alt="" class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">COVERAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Japan</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt=""></div>
+                                                <p class="my-0">DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">1 GB</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">VALIDITY</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">7 Days</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><img src="" alt="">icon</div>
+                                                <p class="my-0">PRICE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">$4.50 USD</p>
+                                            </div>
+                                        </div>
+                                        <div class="py-3 border-top">
+                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-5">
+                            <div class="row justify-content-center">
+                                <div class="col-4">
+                                    <button class="w-100 border-0 rounded p-2">SHOW 200+ COUNTRIES</button>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
                 </div>
-                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">2</div>
-                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">3</div>
             </div>
         </div>
     </section>
