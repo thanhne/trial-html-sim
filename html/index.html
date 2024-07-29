@@ -15,9 +15,15 @@
 
     <style>
         .active {
-            color: #495057;
+            color: #212529 !important;
             background-color: #f8f9fa !important;
             border-color: #dee2e6 #dee2e6 #f8f9fa !important;
+        }
+
+        @media (max-width: 768px) {
+            input::placeholder {
+                font-size: 10px;
+            }
         }
     </style>
 </head>
@@ -94,10 +100,10 @@
             </div>
         </div>
     </header>
-    <section class="section1 my-5">
+    <section class="section1 my-5 mt-4">
         <div class="container mx-auto">
             <div class="text-center">
-                <h1>Stay connected, wherever you travle, <br class="d-none d-md-block"> at affordable rates</p>
+                <h2>Stay connected, wherever you travle, <br class="d-none d-md-block"> at affordable rates</p>
             </div>
             <div class="my-3 text-center">
                 <p>Our eSIMs are trusted by over 10,000,000 people worldwide</p>
@@ -130,16 +136,19 @@
     <section class="section2 my-5">
         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="text-dark nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                    type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                <button class="text-secondary nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                    type="button" role="tab" aria-controls="home" aria-selected="true" style="font-weight: 500;">Local
+                    eSIMs</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="text-dark nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                    type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                <button class="text-secondary nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                    type="button" role="tab" aria-controls="profile" aria-selected="false"
+                    style="font-weight: 500;">Regional eSIMs</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="text-dark nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
-                    type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                <button class="text-secondary nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                    type="button" role="tab" aria-controls="contact" aria-selected="false"
+                    style="font-weight: 500;">Global eSIMs</button>
             </li>
         </ul>
         <div class="tab-content bg-light" id="nav-tabContent">
@@ -732,8 +741,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-flex flex-column justify-content-center">
-                    <h5>Ready to try eSIMs and change the <br>way you stay connected?</h5>
-                    <p>Download the ... app to purchase, manage, and top up your <br class="d-none d-md-block">eSIMs
+                    <h5 class="m-0">Ready to try eSIMs and change the <br>way you stay connected?</h5>
+                    <p class="m-0 mt-2 mb-4">Download the ... app to purchase, manage, and top up your <br
+                            class="d-none d-md-block">eSIMs
                         anytime, anywhere!</p>
                     <div class="row">
                         <div class="col-6 col-lg-4">
@@ -773,7 +783,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6" style="min-height: 400px; max-height: 546px;">
+                <div class="col-md-6 pt-4 py-lg-0" style="min-height: 400px; max-height: 546px;">
                     <img src="./assets/images/Download-New-One.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
             </div>
@@ -816,27 +826,27 @@
                     <div class="col-md-6 col-lg-4 col-xl-2">
                         <div>
                             <div>
-                                <h6>Popular Countries</h6>
+                                <h6 class="my-3">Popular Countries</h6>
                             </div>
                             <div class="">
                                 <ul class="list-unstyled">
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">United
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">United
                                             Sates</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">United
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">United
                                             Kingdom</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Turkey</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Turkey</a>
                                     </li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">France</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">France</a>
                                     </li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Italy</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Italy</a>
                                     </li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Spain</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Spain</a>
                                     </li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Canada</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Canada</a>
                                     </li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">China</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">China</a>
                                     </li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Germany</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Germany</a>
                                     </li>
                                 </ul>
                             </div>
@@ -845,22 +855,22 @@
                     <div class="col-md-6 col-lg-4 col-xl-2">
                         <div>
                             <div>
-                                <h6>Popular Countries</h6>
+                                <h6 class="my-3">Popular Countries</h6>
                             </div>
                             <div class="">
                                 <ul class="list-unstyled">
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Airalo
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Airalo
                                             Partner
                                             Platform</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Affiliate
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Affiliate
                                             Partners</a>
                                     </li>
-                                    <li class="my-1"><a href="#"
+                                    <li class="my-2"><a href="#"
                                             class="text-decoration-none text-secondary">Distribution
                                             Partners</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">API
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">API
                                             Partners</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Airalo for
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Airalo for
                                             Corporates</a></li>
                                 </ul>
                             </div>
@@ -869,19 +879,19 @@
                     <div class="col-md-6 col-lg-4 col-xl-2">
                         <div>
                             <div>
-                                <h6>About Us</h6>
+                                <h6 class="my-3">About Us</h6>
                             </div>
                             <div class="">
                                 <ul class="list-unstyled">
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">About
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">About
                                             Airalo</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Our
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Our
                                             Values</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Impacrt</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Impacrt</a>
                                     </li>
-                                    <li class="my-1"><a href="#"
+                                    <li class="my-2"><a href="#"
                                             class="text-decoration-none text-secondary">Newsroom</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Media
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Media
                                             Center</a></li>
                                 </ul>
                             </div>
@@ -890,19 +900,19 @@
                     <div class="col-md-6 col-lg-4 col-xl-2">
                         <div>
                             <div>
-                                <h6>More Info</h6>
+                                <h6 class="my-3">More Info</h6>
                             </div>
                             <div class="">
                                 <ul class="list-unstyled">
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Help
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Help
                                             Center</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Contact
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Contact
                                             Us</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Blog</a>
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Blog</a>
                                     </li>
-                                    <li class="my-1"><a href="#"
+                                    <li class="my-2"><a href="#"
                                             class="text-decoration-none text-secondary">Referral</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Manage
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Manage
                                             cookies</a></li>
                                 </ul>
                             </div>
@@ -911,13 +921,13 @@
                     <div class="col-md-6 col-lg-4 col-xl-2">
                         <div>
                             <div>
-                                <h6>Airalo Careers</h6>
+                                <h6 class="my-3">Airalo Careers</h6>
                             </div>
                             <div class="">
                                 <ul class="list-unstyled">
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Working
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Working
                                             at</a></li>
-                                    <li class="my-1"><a href="#" class="text-decoration-none text-secondary">Job
+                                    <li class="my-2"><a href="#" class="text-decoration-none text-secondary">Job
                                             Vacancies</a></li>
                                 </ul>
                             </div>
@@ -926,22 +936,23 @@
                 </div>
             </div>
             <div class="container py-3 border-top">
-                <div class="row">
+                <div class="row" style="font-size: 14px;">
                     <div class="col-md-6 col-lg-8 d-lg-flex">
                         <div class="">
                             <p class="m-0 my-3">&copy2024</p>
                         </div>
                         <div class="d-lg-flex ms-lg-5">
                             <div class="d-lg-flex my-3">
-                                <p class="m-0">PRIVACY & COOKIE POLICY</p>
-                                <p class="m-0">TERMS & CONDITIONS</p>
+                                <p class="m-0 mx-lg-2 my-3 my-lg-0">PRIVACY & COOKIE POLICY</p>
+                                <p class="m-0 mx-lg-2 my-3 my-lg-0">TERMS & CONDITIONS</p>
                             </div>
                             <div class="col-md-1 p-0 px-3 d-none d-md-block" style="width: 1px;">
                                 <div class="p-0 d-none d-md-block h-100 border-start"></div>
                             </div>
                             <div class="d-lg-flex my-3">
-                                <p class="m-0">English</p>
-                                <p class="m-0">USD</p>
+                                <p class="m-0 mx-lg-2 my-3 my-lg-0"><i class="fa-solid fa-earth-americas mx-1"></i>English
+                                </p>
+                                <p class="m-0 mx-lg-2 my-3 my-lg-0"><i class="fa-solid fa-dollar-sign mx-1"></i>USD</p>
                             </div>
                         </div>
                     </div>
@@ -952,12 +963,18 @@
                             </div>
                             <div>
                                 <ul class="list-unstyled d-flex m-0">
-                                    <li><a href="#" class="mx-2 text-decoration-none">aa</a></li>
-                                    <li><a href="#" class="mx-2 text-decoration-none">aa</a></li>
-                                    <li><a href="#" class="mx-2 text-decoration-none">aa</a></li>
-                                    <li><a href="#" class="mx-2 text-decoration-none">aa</a></li>
-                                    <li><a href="#" class="mx-2 text-decoration-none">aa</a></li>
-                                    <li><a href="#" class="mx-2 text-decoration-none">aa</a></li>
+                                    <li><a href="#" class="mx-2 text-decoration-none"><i
+                                                class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#" class="mx-2 text-decoration-none"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" class="mx-2 text-decoration-none"><i
+                                                class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#" class="mx-2 text-decoration-none"><i
+                                                class="fa-brands fa-tiktok"></i></a></li>
+                                    <li><a href="#" class="mx-2 text-decoration-none"><i
+                                                class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#" class="mx-2 text-decoration-none"><i
+                                                class="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
