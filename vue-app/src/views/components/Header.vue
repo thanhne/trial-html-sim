@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class=" my-3">
-                        <a href="#" class="d-flex align-item-center w-100 h-100"><img src="./assets/images/Logo.svg"
+                        <a href="#" class="d-flex align-item-center w-100 h-100"><img src="@/assets/images/Logo.svg"
                                 alt="" class="w-100 h-100 object-fit-cover"></a>
                     </div>
                 </div>

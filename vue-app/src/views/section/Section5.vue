@@ -46,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 pt-4 py-lg-0" style="min-height: 400px; max-height: 546px;">
-                    <img src="./assets/images/Download-New-One.png" alt="" class="w-100 h-100 object-fit-cover">
+                    <img src="@/assets/images/Download-New-One.png" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
             </div>
         </div>

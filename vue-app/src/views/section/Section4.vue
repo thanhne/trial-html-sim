@@ -11,7 +11,7 @@
                             <div class="p-3 bg-white rounded">
                                 <div>
                                     <div class="mx-auto mb-3" style="width: 200px; height: 150px;">
-                                        <img src="./assets/images/Why-Use-We-1.svg" alt=""
+                                        <img src="@/assets/images/Why-Use-We-1.svg" alt=""
                                             class="w-100 h-100 object-fit-cover">
                                     </div>
                                     <div class="text-center">
@@ -51,7 +51,7 @@
                             <div class="p-3 bg-white rounded">
                                 <div>
                                     <div class="mx-auto mb-3" style="width: 200px; height: 150px;">
-                                        <img src="./assets/images/Why-Use-We-2.svg" alt=""
+                                        <img src="@/assets/images/Why-Use-We-2.svg" alt=""
                                             class="w-100 h-100 object-fit-cover">
                                     </div>
                                     <div class="text-center">
@@ -91,7 +91,7 @@
                             <div class="p-3 bg-white rounded">
                                 <div>
                                     <div class="mx-auto mb-3" style="width: 200px; height: 150px;">
-                                        <img src="./assets/images/Why-Use-We-3.svg" alt=""
+                                        <img src="@/assets/images/Why-Use-We-3.svg" alt=""
                                             class="w-100 h-100 object-fit-cover">
                                     </div>
                                     <div class="text-center">
@@ -131,7 +131,7 @@
                             <div class="p-3 bg-white rounded">
                                 <div>
                                     <div class="mx-auto mb-3" style="width: 200px; height: 150px;">
-                                        <img src="./assets/images/Why-Use-We-4.svg" alt=""
+                                        <img src="@/assets/images/Why-Use-We-4.svg" alt=""
                                             class="w-100 h-100 object-fit-cover">
                                     </div>
                                     <div class="text-center">

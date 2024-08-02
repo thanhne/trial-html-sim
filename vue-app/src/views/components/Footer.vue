@@ -7,7 +7,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-2">
                         <div>
                             <div class="d-flex" style="height: 50px; width: 100px;">
-                                <img src="./assets/images/Logo.svg" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="@/assets/images/Logo.svg" alt="" class="w-100 h-100 object-fit-cover">
                             </div>
                             <div>
                                 <p class="m-0 text-secondary" style="font-size: 14px;">Contrary to popular belief, Lorem

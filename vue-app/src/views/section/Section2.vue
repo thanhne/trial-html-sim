@@ -23,7 +23,7 @@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="d-flex justify-content-center align-items-center py-5">
                             <div class="" style="width: 50px; height: 37.5px;">
-                                <img src="./assets/images/japanese.png" alt="" class="w-100 h-100 object-fit-cover">
+                                <img src="@/assets/images/japanese.png" alt="" class="w-100 h-100 object-fit-cover">
                             </div>
                             <div class="mx-3">
                                 <h3 class="m-0">Japan</h3>
@@ -39,7 +39,7 @@
                                             </div>
                                             <div
                                                 class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                <img src="@/assets/images/moshi-moshi.png" alt=""
                                                     class="w-100 h-100 object-fit-cover rounded">
                                             </div>
                                         </div>
@@ -93,7 +93,7 @@
                                             </div>
                                             <div
                                                 class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                <img src="@/assets/images/moshi-moshi.png" alt=""
                                                     class="w-100 h-100 object-fit-cover rounded">
                                             </div>
                                         </div>
@@ -147,7 +147,7 @@
                                             </div>
                                             <div
                                                 class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                <img src="@/assets/images/moshi-moshi.png" alt=""
                                                     class="w-100 h-100 object-fit-cover rounded">
                                             </div>
                                         </div>
@@ -201,7 +201,7 @@
                                             </div>
                                             <div
                                                 class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                <img src="@/assets/images/moshi-moshi.png" alt=""
                                                     class="w-100 h-100 object-fit-cover rounded">
                                             </div>
                                         </div>
@@ -255,7 +255,7 @@
                                             </div>
                                             <div
                                                 class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                <img src="@/assets/images/moshi-moshi.png" alt=""
                                                     class="w-100 h-100 object-fit-cover rounded">
                                             </div>
                                         </div>
@@ -309,7 +309,7 @@
                                             </div>
                                             <div
                                                 class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                <img src="@/assets/images/moshi-moshi.png" alt=""
                                                     class="w-100 h-100 object-fit-cover rounded">
                                             </div>
                                         </div>

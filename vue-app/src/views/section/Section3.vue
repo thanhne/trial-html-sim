@@ -13,7 +13,7 @@
                 <div class="row gy-5">
                     <div class="col-md-6 col-lg-3">
                         <div class="">
-                            <div class="d-flex" style="height: 400px;"><img src="./assets/images/How-We-Works-LTR-1.svg"
+                            <div class="d-flex" style="height: 400px;"><img src="@/assets/images/How-We-Works-LTR-1.svg"
                                     alt="img" class="w-100 h-100 object-fit-cover"></div>
                             <div class="my-3">
                                 <p class="text-center">Download the app</p>
@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="">
-                            <div class="d-flex" style="height: 400px;"><img src="./assets/images/How-We-Works-LTR-2.svg"
+                            <div class="d-flex" style="height: 400px;"><img src="@/assets/images/How-We-Works-LTR-2.svg"
                                     alt="img" class="w-100 h-100 object-fit-cover"></div>
                             <div class="my-3">
                                 <p class="text-center">Choose your destination <br> and package</p>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="">
-                            <div class="d-flex" style="height: 400px;"><img src="./assets/images/How-We-Works-LTR-3.svg"
+                            <div class="d-flex" style="height: 400px;"><img src="@/assets/images/How-We-Works-LTR-3.svg"
                                     alt="img" class="w-100 h-100 object-fit-cover"></div>
                             <div class="my-3">
                                 <p class="text-center">Install your eSIM</p>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="">
-                            <div class="d-flex" style="height: 400px;"><img src="./assets/images/How-We-Works-LTR-4.svg"
+                            <div class="d-flex" style="height: 400px;"><img src="@/assets/images/How-We-Works-LTR-4.svg"
                                     alt="img" class="w-100 h-100 object-fit-cover"></div>
                             <div class="my-3">
                                 <p class="text-center">Activate your eSIM</p>
