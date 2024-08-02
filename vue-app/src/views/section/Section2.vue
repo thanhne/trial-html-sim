@@ -80,8 +80,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link to="/sim-detail"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOWAA</button></router-link>
                                         </div>
                                     </div>
                                 </div>
