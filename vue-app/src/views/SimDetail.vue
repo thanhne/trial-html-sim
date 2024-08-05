@@ -2,7 +2,7 @@
      <section class="section2 my-5">
         <div class="d-flex justify-content-center align-items-center pb-5">
             <div class="" style="width: 50px; height: 37.5px;">
-                <img src="./assets/images/japanese.png" alt="" class="w-100 h-100 object-fit-cover">
+                <img src="@/assets/images/japanese.png" alt="" class="w-100 h-100 object-fit-cover">
             </div>
             <div class="mx-3">
                 <h3 class="m-0">Japan</h3>
@@ -20,7 +20,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="px-3" style="border-radius: 20px;"><img
-                                                src="./assets/images/moshi-moshi.png" alt=""
+                                                src="@/assets/images/moshi-moshi.png" alt=""
                                                 class="w-100 h-100 object-fit-cover"></div>
                                     </div>
                                     <div class="col-md-6 text-white pt-3 pt-md-0 px-5">
@@ -92,7 +92,7 @@
                                         <p class="m-0">Japan</p>
                                     </div>
                                     <div class="" style="width: 50px; height: 37.5px;"><img
-                                            src="./assets/images/japanese.png" alt=""
+                                            src="@/assets/images/japanese.png" alt=""
                                             class="w-100 h-100 object-fit-cover">
                                     </div>
                                 </div>
