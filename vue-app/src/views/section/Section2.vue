@@ -80,8 +80,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/1' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -134,8 +134,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/2' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -188,8 +188,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/3' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -242,8 +242,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/4' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -296,8 +296,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/5' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -350,8 +350,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-danger border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/6' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -469,7 +469,7 @@
                                             </div>
                                             <div
                                                 class="border-0 position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/discovery-sim.png" alt=""
+                                                <img src="@/assets/images/discovery-sim.png" alt=""
                                                     class="w-100 h-100 object-fit-cover">
                                             </div>
                                         </div>
@@ -510,8 +510,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-primary border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/11' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -523,7 +523,7 @@
                                             </div>
                                             <div
                                                 class="border-0 position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/discovery-sim.png" alt=""
+                                                <img src="@/assets/images/discovery-sim.png" alt=""
                                                     class="w-100 h-100 object-fit-cover">
                                             </div>
                                         </div>
@@ -564,8 +564,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-primary border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/12' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -577,7 +577,7 @@
                                             </div>
                                             <div
                                                 class="border-0 position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/discovery-sim.png" alt=""
+                                                <img src="@/assets/images/discovery-sim.png" alt=""
                                                     class="w-100 h-100 object-fit-cover">
                                             </div>
                                         </div>
@@ -618,8 +618,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-primary border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/13' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -631,7 +631,7 @@
                                             </div>
                                             <div
                                                 class="border-0 position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/discovery-sim.png" alt=""
+                                                <img src="@/assets/images/discovery-sim.png" alt=""
                                                     class="w-100 h-100 object-fit-cover">
                                             </div>
                                         </div>
@@ -672,8 +672,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-primary border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/14' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -685,7 +685,7 @@
                                             </div>
                                             <div
                                                 class="border-0 position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/discovery-sim.png" alt=""
+                                                <img src="@/assets/images/discovery-sim.png" alt=""
                                                     class="w-100 h-100 object-fit-cover">
                                             </div>
                                         </div>
@@ -726,8 +726,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-primary border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/15' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
@@ -739,7 +739,7 @@
                                             </div>
                                             <div
                                                 class="border-0 position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
-                                                <img src="./assets/images/discovery-sim.png" alt=""
+                                                <img src="@/assets/images/discovery-sim.png" alt=""
                                                     class="w-100 h-100 object-fit-cover">
                                             </div>
                                         </div>
@@ -780,8 +780,8 @@
                                             </div>
                                         </div>
                                         <div class="py-3 border-top">
-                                            <button class="w-100 p-2 rounded bg-primary border text-white">BUY
-                                                NOW</button>
+                                            <router-link :to="{ path: '/sim-detail/16' }"><button class="w-100 p-2 rounded bg-danger border text-white">BUY
+                                                NOW</button></router-link>
                                         </div>
                                     </div>
                                 </div>
