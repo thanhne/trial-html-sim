@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .section2 .active {
+            color: #212529 !important;
+            background-color: #f8f9fa !important;
+            border-color: #dee2e6 #dee2e6 #f8f9fa !important;
+        }
+
+        @media (max-width: 768px) {
+            input::placeholder {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section2 my-5">
+        <h3 class="mb-0 mb-5 text-center">My eSIMs</h3>
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist" style="flex-wrap: nowrap;">
+            <li class="nav-item" role="presentation">
+                <button class="text-secondary nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                    type="button" role="tab" aria-controls="home" aria-selected="true" style="font-weight: 500;">
+                    Current eSIMs
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="text-secondary nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                    type="button" role="tab" aria-controls="profile" aria-selected="false"
+                    style="font-weight: 500;">Archived eSIMs</button>
+            </li>
+
+        </ul>
+        <div class="tab-content bg-light" id="nav-tabContent">
+            <div class="container">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="container pt-5">
+                            <div class="row gy-5">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="bg-danger rounded text-white px-4">
+                                        <div class="d-flex justify-content-between py-5 position-relative">
+                                            <div>
+                                                <h5 class="my-0">Xin Chao</h5>
+                                            </div>
+                                            <div
+                                                class="bg-white border position-absolute rounded bottom-0 end-0 translate-middle-y w-50 h-75">
+                                                <img src="./assets/images/moshi-moshi.png" alt=""
+                                                    class="w-100 h-100 object-fit-cover rounded">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><i class="fa-solid fa-house"></i></div>
+                                                <p class="my-0 ms-1">ICCID</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">8965012310252764290</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><i class="fa-solid fa-house"></i></div>
+                                                <p class="my-0 ms-1">COVERRAGE</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">Vietnam</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between py-3 border-top">
+                                            <div class="d-flex">
+                                                <div><i class="fa-solid fa-house"></i></div>
+                                                <p class="my-0 ms-1">REMAINING DATA</p>
+                                            </div>
+                                            <div>
+                                                <p class="my-0">EXPIRED</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="py-3 border-top">
+                                            <div class="row justify-content-between">
+                                                <div class="col-6">
+                                                    <button class=" w-100 p-2 rounded bg-danger border text-white">
+                                                        TOP UP</button>
+                                                </div>
+                                                <div class="col-6">
+                                                    <button class="w-100 p-2 rounded bg-danger border text-white">
+                                                        DETAILS</button>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="py-5">
+                            <div class="row justify-content-center">
+                                <div class="text-center">
+                                    <h3>Would you like to buy a new ESIM?</h3>
+                                    <p>You can visit our store and choose onel</p>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="bg-secondary text-white w-100 border-0 rounded p-2">
+                                        PURCHASE AN eSIMs
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="d-flex justify-content-center align-items-center py-5">
+                            <div class="mx-3">
+                                <h3 class="m-0">Regions</h3>
+                            </div>
+                        </div>
+                        <div class="pb-5">
+                            <div class="row gy-4">
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>Africa</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>Asia</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>Caribbean Islands</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>Europe</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>Latin America</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>Middle East and North Africa</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="bg-white rounded d-flex p-3">
+                                        <div class="col-1"><img src="" alt="" class="w-100 h-100 object-fit-cover">
+                                        </div>
+                                        <div class="col-11 ps-3 d-flex justify-content-between">
+                                            <div>North America</div>
+                                            <div><i class="fa-solid fa-chevron-down text-muted"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
