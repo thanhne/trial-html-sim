@@ -17,6 +17,18 @@
         .active {
             box-shadow: 0px -8px 8px rgba(0, 0, 0, 0.05), -8px -1px 8px rgba(0, 0, 0, 0.05), 8px -1px 8px rgba(0, 0, 0, 0.05)
         }
+
+        html {
+            overflow-y: scroll;
+            /* Luôn hiển thị thanh cuộn nhưng không cần thiết phải nhìn thấy */
+        }
+
+        html::-webkit-scrollbar {
+            width: 0;
+            /* Ẩn thanh cuộn trên các trình duyệt WebKit */
+            background: transparent;
+            /* Làm nền của thanh cuộn trong suốt */
+        }
     </style>
 </head>
 
@@ -38,8 +50,8 @@
                             data-bs-target="#login" type="button" role="tab">Login</button>
                     </li>
                     <li class="nav-item w-50 border-0" role="presentation">
-                        <button class="nav-link w-100 fw-bold" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup"
-                            type="button" role="tab">Signup</button>
+                        <button class="nav-link w-100 fw-bold" id="signup-tab" data-bs-toggle="tab"
+                            data-bs-target="#signup" type="button" role="tab">Signup</button>
                     </li>
                 </ul>
             </div>
@@ -122,8 +134,9 @@
                             </div>
                             <div class="mb-3 bg-light py-1 position-relative"
                                 style="border-radius: 10px; height: 50px;">
-                                <input type="password" class="px-2 form-control p-0 bg-light h-100" id="retype-new-password"
-                                    placeholder="Retype New Password" style="border: none; outline: none;">
+                                <input type="password" class="px-2 form-control p-0 bg-light h-100"
+                                    id="retype-new-password" placeholder="Retype New Password"
+                                    style="border: none; outline: none;">
                                 <i class="fa-regular fa-eye position-absolute"
                                     style="cursor: pointer; top: 20px ; right: 20px; font-size: 12px;"></i>
                             </div>
@@ -137,7 +150,8 @@
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="check"
                                         style="cursor: pointer; outline: none;">
-                                    <label class="form-check-label" for="check" style="font-size: 14px;">I'd like to receive promotional
+                                    <label class="form-check-label" for="check" style="font-size: 14px;">I'd like to
+                                        receive promotional
                                         emails.</label>
                                 </div>
                             </div>
@@ -148,7 +162,10 @@
                         <!-- Social Signup -->
                         <div class="text-center">
                             <div class="my-3">
-                                <p class="m-0" style="font-size: 10px; text-align: left;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus dolore dolorum doloremque nemo libero a enim, fugiat laudantium, aliquid ipsa incidunt iure voluptate aliquam, rerum tempore corporis obcaecati vel repudiandae.</p>
+                                <p class="m-0" style="font-size: 10px; text-align: left;">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit. Natus dolore dolorum doloremque nemo libero a enim,
+                                    fugiat laudantium, aliquid ipsa incidunt iure voluptate aliquam, rerum tempore
+                                    corporis obcaecati vel repudiandae.</p>
                             </div>
                             <hr class="m-0" style="border-top: 1px solid #ccc;">
                             <div class="my-3">
