@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .active {
+            box-shadow: 0px -8px 8px rgba(0, 0, 0, 0.05), -8px -1px 8px rgba(0, 0, 0, 0.05), 8px -1px 8px rgba(0, 0, 0, 0.05)
+        }
+
+        html {
+            overflow-y: scroll;
+            /* Luôn hiển thị thanh cuộn nhưng không cần thiết phải nhìn thấy */
+        }
+
+        html::-webkit-scrollbar {
+            width: 0;
+            /* Ẩn thanh cuộn trên các trình duyệt WebKit */
+            background: transparent;
+            /* Làm nền của thanh cuộn trong suốt */
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="py-4" style="height: 100;">
+        <div class="container">
+            <div class="col-md-6 col-xl-4 mx-auto">
+                <!-- Logo -->
+                <div class="bg-light mx-auto mb-4" style="width: 125px; height: 55px;">
+                    <img src="" alt="" class="img-fluid w-100 h-100 object-fit-cover">
+                </div>
+                <!-- Table -->
+                <div class="mx-auto">
+                    <!-- Tabs -->
+                    <div>
+                        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                            <li class="nav-item w-50 border-0" role="presentation">
+                                <button class="border-0 nav-link w-100 fw-bold active" id="login-tab"
+                                    data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab">Login</button>
+                            </li>
+                            <li class="nav-item w-50 border-0" role="presentation">
+                                <button class="border-0 nav-link w-100 fw-bold" id="signup-tab" data-bs-toggle="tab"
+                                    data-bs-target="#signup" type="button" role="tab">Signup</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="tab-content" id="myTabContent">
+                        <!-- Content login-->
+                        <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <div class="p-4 shadow" style="border-radius: 0 0 5px 5px; border-top: none !important;">
+                                <!-- Login Form -->
+                                <form>
+                                    <div class="mb-3 bg-light position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <label for="email" class="px-2 form-label m-0 position-absolute"
+                                            style="font-size: 12px; top: 5px;">Email</label>
+                                        <input type="email" class="px-2 form-control p-0 bg-light h-100 pt-3" id="email"
+                                            placeholder="nbthanh93@gmail.com" style="border: none; outline: none;">
+                                    </div>
+                                    <div class="mb-3 bg-light position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="password" class="px-2 form-control p-0 bg-light h-100"
+                                            id="password" placeholder="Password" style="border: none; outline: none;">
+                                        <i class="fa-regular fa-eye position-absolute"
+                                            style="cursor: pointer; top: 22px ; right: 10px; font-size: 12px;"></i>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="form-check mb-3">
+                                            <input type="checkbox" class="form-check-input" id="rememberMe"
+                                                style="cursor: pointer; outline: none;">
+                                            <label class="form-check-label" for="rememberMe">Remember me.</label>
+                                        </div>
+                                        <div class="d-flex justify-content-between align-items-center mb-3">
+                                            <a href="#">Forgot Password?</a>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-dark w-100 fw-bold">LOG IN</button>
+                                </form>
+
+                                <!-- Social Login -->
+                                <div class="text-center">
+                                    <div class="position-relative my-4">
+                                        <hr class="m-0" style="border-top: 1px solid #ccc;">
+                                        <p class="fw-bold position-absolute top-50 start-50 translate-middle bg-white px-2"
+                                            style="font-size: 12px;">OR LOG IN WITH</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button class="btn btn-light me-4"><i class="fab fa-apple"></i></button>
+                                        <button class="btn btn-light me-4"><i class="fab fa-facebook-f"></i></button>
+                                        <button class="btn btn-light"><i class="fab fa-google"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Content signup-->
+                        <div class="tab-pane fade show" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+                            <div class=" p-4 shadow" style="border-radius: 0 0 5px 5px; border-top: none !important;">
+                                <!-- Sigin Form -->
+                                <form>
+                                    <div class="mb-3 bg-light py-1 position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="text" class="px-2 form-control p-0 bg-light h-100" id="first-name"
+                                            placeholder="Frist Name" style="border: none; outline: none;">
+                                    </div>
+                                    <div class="mb-3 bg-light py-1 position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="text" class="px-2 form-control p-0 bg-light h-100" id="last-name"
+                                            placeholder="Last Name (Optional)" style="border: none; outline: none;">
+                                    </div>
+                                    <div class="mb-3 bg-light py-1 position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="email" class="px-2 form-control p-0 bg-light h-100" id="email"
+                                            placeholder="Email" style="border: none; outline: none;">
+                                    </div>
+                                    <div class="mb-3 bg-light py-1 position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="password" class="px-2 form-control p-0 bg-light h-100"
+                                            id="password" placeholder="Password" style="border: none; outline: none;">
+                                        <i class="fa-regular fa-eye position-absolute"
+                                            style="cursor: pointer; top: 20px ; right: 20px; font-size: 12px;"></i>
+                                    </div>
+                                    <div class="mb-3 bg-light py-1 position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="password" class="px-2 form-control p-0 bg-light h-100"
+                                            id="retype-new-password" placeholder="Retype New Password"
+                                            style="border: none; outline: none;">
+                                        <i class="fa-regular fa-eye position-absolute"
+                                            style="cursor: pointer; top: 20px ; right: 20px; font-size: 12px;"></i>
+                                    </div>
+                                    <div class="mb-3 bg-light py-1 position-relative"
+                                        style="border-radius: 10px; height: 55px;">
+                                        <input type="text" class="px-2 form-control p-0 bg-light h-100"
+                                            id="voucher-code" placeholder="Referral or Voucher Code (Optional)"
+                                            style="border: none; outline: none;">
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="check"
+                                                style="cursor: pointer; outline: none;">
+                                            <label class="form-check-label" for="check" style="font-size: 14px;">I'd
+                                                like to
+                                                receive promotional
+                                                emails.</label>
+                                        </div>
+                                    </div>
+                                    <hr class="m-0 my-3" style="border-top: 1px solid #ccc;">
+                                    <button type="submit" class="btn btn-dark w-100 fw-bold">AGREE AND SIGNUP</button>
+                                </form>
+
+                                <!-- Social Signup -->
+                                <div class="text-center">
+                                    <div class="my-3">
+                                        <p class="m-0" style="font-size: 10px; text-align: left;">Lorem ipsum dolor sit
+                                            amet,
+                                            consectetur adipisicing elit. Natus dolore dolorum doloremque nemo libero a
+                                            enim,
+                                            fugiat laudantium, aliquid ipsa incidunt iure voluptate aliquam, rerum
+                                            tempore
+                                            corporis obcaecati vel repudiandae.</p>
+                                    </div>
+                                    <hr class="m-0" style="border-top: 1px solid #ccc;">
+                                    <div class="my-3">
+                                        <p class="m-0 fw-bold" style="font-size: 12px;">OR SIGNUP WITH</p>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button class="btn btn-light me-4"><i class="fab fa-apple"></i></button>
+                                        <button class="btn btn-light me-4"><i class="fab fa-facebook-f"></i></button>
+                                        <button class="btn btn-light"><i class="fab fa-google"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
