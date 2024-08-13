@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>account-infomation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="bg-light" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row">
+                <div class="py-4">
+                    <a href="#">Profile</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="#">Account Infomation</a>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="">              
+                        <div class="border bg-white" style="border-radius: 5px;">
+                            <div class="p-4">
+                                <h5 class="m-0 fw-bold">nguyen thanh</h5>
+                                <p class="m-0">Traveler</p>
+                            </div>
+                            <hr class="m-0">
+                            <div class="p-4">
+                                <ul class="list-unstyled m-0">
+                                    <li><a href="#" class="border-start px-3 fw-bold">Account Information</a></li>
+                                    <li><a href="#" class="border-start px-3 fw-bold">Airmoney & Membership</a></li>
+                                    <li><a href="#" class="border-start px-3 fw-bold">Saved Cards</a></li>
+                                    <li><a href="#" class="border-start px-3 fw-bold">Refer & Earn</a></li>
+                                    <li><a href="#" class="border-start px-3 fw-bold">Orders</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <a href="#" class="text-danger">Logout <i class="fas fa-sign-out mx-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-8">
+                    <div class="">
+                        <div class="">
+                            <h4 class="fw-bold mb-3">Account Information</h4>
+                            <form action="">
+                                <div class="position-relative my-2">
+                                    <label for="" class="position-absolute" style="left: 16px; font-size: 12px; top: 5px;">First Name</label>
+                                    <input type="text" class="form-control px-3" placeholder="nguyen" style="padding-top: 20px;">
+                                </div>
+                                <div class="position-relative my-2">
+                                    <label for="" class="position-absolute" style="left: 16px; font-size: 12px; top: 5px;">Last Name (Optional)</label>
+                                    <input type="text" class="form-control px-3" placeholder="thanh" style="padding-top: 20px;">
+                                </div>
+                                <div class="position-relative my-2 d-flex flex-column">
+                                    <label for="" class="position-absolute" style="left: 16px; font-size: 12px; top: 5px;">Email</label>
+                                    <input type="text" class="form-control px-3" placeholder="nbthanh93@gmail.com" style="padding-top: 20px;">
+                                    <i class="fa-solid fa-lock position-absolute" style="top: 18px; right: 14px;"></i>
+                                    <button class="ms-auto mt-2 rounded col-3 col-md-2 py-1">EDIT</button>
+                                </div>
+                                <div class="position-relative mt-4 mb-2 d-flex flex-column">
+                                    <label for="" class="position-absolute" style="left: 16px; font-size: 12px; top: 5px;">Current Password</label>
+                                    <input type="text" class="form-control px-3" placeholder="******" style="padding-top: 20px;">
+                                    <i class="fa-solid fa-lock position-absolute" style="top: 18px; right: 14px;"></i>
+                                    <button class="ms-auto mt-2 rounded col-3 col-md-2 py-1">EDIT</button>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="promotionalEmails" checked style="cursor: pointer;">
+                                    <label class="form-check-label" for="promotionalEmails">I'd like to receive promotional emails.</label>
+                                </div>
+                                <div class="my-4">
+                                    <button class="py-1 rounded col-8 col-md-6 bg-dark text-white border-0 fw-bold">SAVE CHANGES</button>
+                                </div>
+                            </form>
+                        </div>
+                        <hr class="mt-5 mb-4">
+                        <div class="pb-5">
+                            <p class="fw-bold">Delete Account</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique dolore dicta veniam sed rerum, pariatur voluptas esse. Vero odit sapiente nulla repudiandae est, odio accusamus voluptates illum excepturi ullam pariatur!</p>
+                            <button class="col-6 col-md-5 col-lg-4 rounded p-1 text-danger border-danger fw-bold">DELETE ACCOUNT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
